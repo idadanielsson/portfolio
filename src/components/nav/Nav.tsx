@@ -1,27 +1,74 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import '../nav/Nav.scss';
+import "../nav/Nav.scss";
+import logo from "../../assets/logo-black.png";
+import Hamburger from "hamburger-react";
 
-const Nav = () => {
-    return (
-        <header className="header">
-            <nav className="header__nav">  
-                    <ul className="header__list">
-                        <li className="header__item">
-                            <Link to='/' className="header__item__link" id="navlink">Home</Link> 
-                        </li>
-                        <li className="header__item">
-                            <Link to='/about' className="header__item__link">About</Link>
-                        </li>
-                        <li className="header__item">
-                            <Link to='/contact' className="header__item__link">Contact</Link>
-                        </li>
-                    </ul>
-            </nav>
-        </header>
+export const Nav = () => {
+  const [isOpen, setOpen] = useState(Boolean);
+  const onClick = () => {
+    setOpen(!isOpen);
+  };
 
-    );
+  return (
+    <>
+      <div onClick={onClick}>
+        <Hamburger
+          toggled={isOpen}
+          toggle={setOpen}
+          size={20}
+          direction="right"
+          duration={0.3}
+          distance="lg"
+          color="#474747"
+          easing="ease-in"
+          onToggle={(toggled: any) => {
+            if (toggled) {
+              setOpen(true);
+            } else {
+              setOpen(false);
+            }
+          }}
+          rounded
+          label="Show menu"
+          hideOutline={false}
+        ></Hamburger>
+      </div>
 
-}
+      <div className={isOpen ? "navActive" : "nav"}>
+        <ul className="nav__list">
+          <li className="nav__item">
+            <Link
+              className="nav__link"
+              onClick={() => {
+                setOpen(false);
+              }}
+              to="/"
+            >
+              Home
+            </Link>
 
-export default Nav;
+            <Link
+              className="nav__link"
+              onClick={() => {
+                setOpen(false);
+              }}
+              to="/resume/file:///Users/idadanielsson/Documents/Medieinstitutet/LIA/CV%20Ida%20Danielsson%202.pdf"
+            >
+              Resume
+            </Link>
+            <Link
+              className="nav__link"
+              onClick={() => {
+                setOpen(false);
+              }}
+              to="/contact"
+            >
+              Contact
+            </Link>
+          </li>
+        </ul>
+      </div>
+    </>
+  );
+};
