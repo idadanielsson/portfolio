@@ -41,7 +41,6 @@ export const ProjectItem = () => {
   return (
     <>
       <Carousel showArrows={true}>{projectHtml}</Carousel>
-      <div className="wave-bottom"></div>
     </>
   );
 };

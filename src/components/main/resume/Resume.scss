@@ -43,8 +43,8 @@
     }
 
     &:hover {
-      background-color: transparent;
-      border: 1px solid #89bcda;
+      transition: all ease 0.7s;
+      color: #474747;
     }
   }
 }

@@ -6,7 +6,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className="footer">
-      <p className="footer__text">Hit me up!</p>
+      <p className="footer__text">Reach out!</p>
       <div className="social">
         <a
           href="https://www.linkedin.com/in/idadanielssons/"

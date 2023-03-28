@@ -1,9 +1,9 @@
 .project {
   width: 100%;
-  height: 80vh;
+  height: 75vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   background-color: #fdfdfd;
   margin: 0;
@@ -15,8 +15,7 @@
   }
 
   &__imgcontainer {
-    display: flex;
-    width: 90%;
+    width: 100%;
 
     @media screen and (min-width: 768px) {
       width: 40%;
@@ -24,7 +23,7 @@
     }
 
     &__img {
-      width: 90%;
+      width: 100%;
 
       @media screen and (max-width: 678px) {
         width: 80%;
@@ -49,30 +48,27 @@
     font-size: 24px;
     cursor: pointer;
     color: #fdfdfd;
+    margin-bottom: 20px;
 
     &:hover {
-      background-color: transparent;
-      border: 1px solid #4c6055;
-      transition: all ease 0.5s;
-      color: black;
+      transition: all ease 0.7s;
+      color: #474747;
     }
   }
 }
 
 .headingcontainer {
-  width: 100%;
+  width: 80%;
   display: flex;
   padding-left: 10px;
   height: 50px;
-  padding-top: 20px;
-  margin-bottom: 40px;
 
   @media screen and (min-width: 768px) {
     width: 80%;
   }
 
   &__heading {
-    font-size: 26px;
+    font-size: 24px;
     padding-left: 10px;
     font-family: "Urbanist";
     letter-spacing: -1px;
@@ -103,14 +99,12 @@
 .vl {
   height: 50px;
   border-left: 1px solid #9dd5f6;
-
-  margin-left: 10px;
 }
 
 .carousel .control-next.control-arrow:before {
   content: "";
   border: solid #474747;
-  border-width: 0 6px 6px 0;
+  border-width: 0 4px 4px 0;
   display: inline-block;
   padding: 8px;
   margin-bottom: 120px;
@@ -121,7 +115,7 @@
 .carousel .control-prev.control-arrow:before {
   content: "";
   border: solid #474747;
-  border-width: 0 6px 6px 0;
+  border-width: 0 4px 4px 0;
   display: inline-block;
   padding: 8px;
   margin-bottom: 120px;

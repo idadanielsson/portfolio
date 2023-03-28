@@ -4,7 +4,7 @@ import "./About.scss";
 export const About = () => {
   return (
     <>
-      <div className="content hidden__left show">
+      <div className="content">
         <div className="about">
           <div className="headingcontainer" id="headingcontainer">
             <div className="vl"></div>
@@ -27,7 +27,6 @@ export const About = () => {
         </div>
         <div className="image"></div>
       </div>
-      <div className="wave"></div>
     </>
   );
 };

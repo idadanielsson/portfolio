@@ -7,7 +7,7 @@
   height: 80vh;
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   background-color: #f6f6f6;
 
@@ -50,8 +50,8 @@
     }
 
     &:hover {
-      background-color: transparent;
-      border: 1px solid #89bcda;
+      transition: all ease 0.7s;
+      color: #474747;
     }
   }
 }
