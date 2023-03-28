@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import "../nav/Nav.scss";
-import logo from "../../assets/logo-black.png";
 import Hamburger from "hamburger-react";
 
 export const Nav = () => {
@@ -53,7 +52,7 @@ export const Nav = () => {
               onClick={() => {
                 setOpen(false);
               }}
-              to="/resume/file:///Users/idadanielsson/Documents/Medieinstitutet/LIA/CV%20Ida%20Danielsson%202.pdf"
+              to="/resume"
             >
               Resume
             </Link>

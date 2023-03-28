@@ -1,6 +1,5 @@
-import { useState } from "react";
 import "../footer/Footer.scss";
-import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 import { MdEmail } from "react-icons/md";
 import { FaLinkedinIn } from "react-icons/fa";
 

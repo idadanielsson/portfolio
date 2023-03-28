@@ -63,14 +63,14 @@ body {
     border-radius: 5px;
     font-size: 16px;
     font-family: "Urbanist";
+    text-decoration: none;
     margin-top: 20px;
     cursor: pointer;
     color: white;
 
     &:hover {
-      background-image: linear-gradient(#eda4d1, #fdd54f 170%);
-      border: none;
-      color: #fdfdfd;
+      background-color: transparent;
+      border: 1px solid #89bcda;
     }
   }
 }
@@ -86,7 +86,7 @@ body {
   background-image: url("file:///Users/idadanielsson/Downloads/me__hero.png");
   background-size: cover;
   background-position: center;
-  border-radius: 150px;
+  border-radius: 50%;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
     rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   margin-bottom: 40px;
@@ -95,6 +95,6 @@ body {
     text-align: center;
     font-size: 28px;
     width: 35%;
-    height: 60vh;
+    height: 500px;
   }
 }

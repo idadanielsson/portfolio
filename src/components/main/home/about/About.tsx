@@ -1,10 +1,7 @@
-import { useState } from "react";
-import { Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./About.scss";
 
-const About = () => {
-  const show = () => {};
-
+export const About = () => {
   return (
     <>
       <div className="content hidden__left show">
@@ -24,7 +21,9 @@ const About = () => {
             communications, followed by almost two years working at one of
             Sweden’s fastest-growing e-commerce.
           </p>
-          <button className="about__btn">My Resume</button>
+          <Link to="/resume" className="about__btn">
+            My Resume
+          </Link>
         </div>
         <div className="image"></div>
       </div>
@@ -32,5 +31,3 @@ const About = () => {
     </>
   );
 };
-
-export default About;

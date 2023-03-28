@@ -1,13 +1,21 @@
 import "./Resume.scss";
+import resume from "../../../assets/ida-danielsson-resume.png";
+import downloadresume from "../../../assets/ida-danielsson-resume.pdf";
 
 export const Resume = () => {
   return (
-    <>
-      <section className="resume">
-        <a href="" target="_blank">
+    <section className="resume">
+      <div className="resumecontainer">
+        <img className="resumecontainer__img" src={resume} alt="" />
+        <a
+          href={downloadresume}
+          target="_blank"
+          download
+          className="resumecontainer__download"
+        >
           Download resume
         </a>
-      </section>
-    </>
+      </div>
+    </section>
   );
 };
