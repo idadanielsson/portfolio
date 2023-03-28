@@ -13,8 +13,8 @@ const Hero = () => {
           <p className="content1__description">
             I'm a webdeveloper student specializing in e-commerce.
           </p>
-          <a href="/" className="content1__btn">
-            About me
+          <a href="/contact" className="content1__btn">
+            Contact me
           </a>
         </motion.div>
       </div>

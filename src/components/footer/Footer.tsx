@@ -10,14 +10,19 @@ const Footer = () => {
       <div className="social">
         <a
           href="https://www.linkedin.com/in/idadanielssons/"
+          target="_blank"
           className="social__icon"
         >
           <FaLinkedinIn></FaLinkedinIn>
         </a>
-        <a href="https://github.com/idadanielsson" className="social__icon">
+        <a
+          href="https://github.com/idadanielsson"
+          target="_blank"
+          className="social__icon"
+        >
           <AiFillGithub></AiFillGithub>
         </a>
-        <a href="mailto:ida.danielsson96@hotmail.com" className="social__icon">
+        <a href="/contact" className="social__icon">
           <MdEmail></MdEmail>
         </a>
       </div>
