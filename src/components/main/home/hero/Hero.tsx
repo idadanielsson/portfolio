@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="imgcontainer"></div>
         <div className="content1">
           <h2 className="content1__title">
-            <span id="hello">Hello, I'm Ida</span> Danielsson!
+            <span id="hello">Hello, I'm </span> Ida Danielsson!
           </h2>
           <p className="content1__description">
             I'm a webdeveloper student specializing in e-commerce.
