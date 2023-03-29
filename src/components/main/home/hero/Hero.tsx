@@ -7,7 +7,7 @@ const Hero = () => {
     <>
       <div className="hero">
         <div className="imgcontainer"></div>
-        <motion.div className="content1">
+        <div className="content1">
           <h2 className="content1__title">
             <span id="hello">Hello, I'm Ida</span> Danielsson!
           </h2>
@@ -17,7 +17,7 @@ const Hero = () => {
           <Link to="/contact" className="content1__btn">
             Contact me
           </Link>
-        </motion.div>
+        </div>
       </div>
     </>
   );
