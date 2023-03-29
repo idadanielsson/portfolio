@@ -1,6 +1,6 @@
 import restaurantdesktop from "./../assets/laptop-restaurant-app.jpg";
 import webshopdesktop from "./../assets/laptop-webshop-app.jpg";
-import weatherapp from "./../assets/weather-application.svg";
+import weatherapp from "./../assets/weatherapp-mob.png";
 
 export interface IProject {
   id: number;
