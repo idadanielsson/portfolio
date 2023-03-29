@@ -1,5 +1,6 @@
 import "./Hero.scss";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -13,9 +14,9 @@ const Hero = () => {
           <p className="content1__description">
             I'm a webdeveloper student specializing in e-commerce.
           </p>
-          <a href="/contact" className="content1__btn">
+          <Link to="/contact" className="content1__btn">
             Contact me
-          </a>
+          </Link>
         </motion.div>
       </div>
     </>
