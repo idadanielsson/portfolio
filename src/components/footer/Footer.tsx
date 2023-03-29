@@ -2,6 +2,7 @@ import "../footer/Footer.scss";
 import { AiFillGithub } from "react-icons/ai";
 import { MdEmail } from "react-icons/md";
 import { FaLinkedinIn } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -22,9 +23,9 @@ const Footer = () => {
         >
           <AiFillGithub></AiFillGithub>
         </a>
-        <a href="/contact" className="social__icon">
+        <Link to="/contact" className="social__icon">
           <MdEmail></MdEmail>
-        </a>
+        </Link>
       </div>
     </div>
   );
