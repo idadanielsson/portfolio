@@ -1,10 +1,9 @@
-import React, { createContext, useState } from "react";
-import { IProjects, projects } from "../../../../models/IProject";
+import { createContext } from "react";
+import { projects } from "../../../../models/IProject";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import { AiFillGithub } from "react-icons/ai";
 import "./Slider.scss";
-import { motion } from "framer-motion";
 
 export const ProjectItem = () => {
   const ProjectContext = createContext(projects);
@@ -37,6 +36,7 @@ export const ProjectItem = () => {
       </>
     );
   });
+
   return (
     <>
       <Carousel showArrows={true}>{projectHtml}</Carousel>
