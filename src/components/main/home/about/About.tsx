@@ -14,7 +14,7 @@ export const About = () => {
           <p className="about__description">
             My name is Ida Danielsson! I’m an ambitious and creative web
             developer student specializing in e-commerce, currently living in
-            Uppsala. During my two year at Medieinstitutet in Stockholm, I will
+            Uppsala. During my two years at Medieinstitutet in Stockholm, I will
             establish solid knowledge in both frontend and backend development
             with skills in HTML, CSS/SCSS, JavaScript, TypeScript, React, SQL,
             PHP, and APIs. <br></br>
