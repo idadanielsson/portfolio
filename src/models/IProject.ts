@@ -38,7 +38,7 @@ export const projects: IProjects = {
       img: weatherapp,
       description:
         "A weather application with Visual crossing API. The application displays the current temperature in celsius based on geolocation search. It was built using react and typescript.",
-      href: "",
+      href: "https://github.com/idadanielsson/weather-application.git",
     },
   ],
 };
