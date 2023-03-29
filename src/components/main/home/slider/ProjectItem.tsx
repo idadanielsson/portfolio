@@ -8,7 +8,6 @@ import { motion } from "framer-motion";
 
 export const ProjectItem = () => {
   const ProjectContext = createContext(projects);
-  const [slider, setSlider] = useState<IProjects>(projects);
 
   const projectHtml = projects.projects.map((project) => {
     return (
