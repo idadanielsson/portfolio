@@ -1,6 +1,6 @@
 import "./Resume.scss";
 import resume from "../../../assets/ida-danielsson-resume.png";
-import downloadresume from "../../../assets/ida-danielsson-resume.pdf";
+import downloadresume from "../../../assets/ida-danielsson_cv.pdf";
 
 export const Resume = () => {
   return (
