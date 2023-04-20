@@ -11,12 +11,12 @@ body {
   flex-direction: column;
   justify-content: center;
   background-size: cover;
-  background-image: url("file:///Users/idadanielsson/Downloads/background-mobile-edited%20(2).png");
+  background-image: url("file:///Users/idadanielsson/Downloads/wave-mobile%20(4).png");
 
   @media screen and (min-width: 768px) {
     flex-direction: row;
     justify-content: center;
-    background-image: url("file:///Users/idadanielsson/Downloads/background-desktop%20(1).png");
+    background-image: url("file:///Users/idadanielsson/Downloads/background-desktop%20(6).png");
     background-position: center;
   }
 }
@@ -58,7 +58,7 @@ body {
     text-align: center;
 
     @media screen and (min-width: 768px) {
-      text-align: left;
+      text-align: center;
     }
   }
 
