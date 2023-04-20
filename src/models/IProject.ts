@@ -1,6 +1,7 @@
 import restaurantdesktop from "./../assets/laptop-restaurant-app.jpg";
 import webshopdesktop from "./../assets/laptop-webshop-app.jpg";
 import weatherapp from "./../assets/weatherapp-mob.png";
+import todolist from "./../assets/laptop-todo-app.jpeg";
 
 export interface IProject {
   id: number;
@@ -34,6 +35,14 @@ export const projects: IProjects = {
     },
     {
       id: 3,
+      title: "Todo-list",
+      img: todolist,
+      description:
+        "A todo-list where it's possible to add tasks, mark a task as completed and delete tasks that are no longer needed. LocalStorage has been implemented.",
+      href: "https://github.com/idadanielsson/Todolist-react.git",
+    },
+    {
+      id: 4,
       title: "Weather app",
       img: weatherapp,
       description:
